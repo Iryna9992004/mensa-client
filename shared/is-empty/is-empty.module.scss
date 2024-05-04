@@ -1,0 +1,11 @@
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    .text{
+        color:rgb(183, 183, 183);
+        font-weight: 600;
+        font-size: 24px;
+    }
+}

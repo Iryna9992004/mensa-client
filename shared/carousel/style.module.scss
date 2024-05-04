@@ -1,0 +1,29 @@
+.image{
+    width:100%;
+
+}
+
+.slider{
+  margin-top: 0;
+  margin-right: 30px;
+  @media(max-width:600px){
+    &{
+        margin:0;
+        margin-top:80px;
+    }
+  }
+    @media(max-width:600px){
+        &{
+            height: fit-content;
+            margin-bottom:25px ;
+        }
+      }
+
+      @media(min-height:1000px){
+        &{
+            margin:0;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+      }
+}

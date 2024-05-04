@@ -1,0 +1,57 @@
+.basket_r{
+    margin:0px;
+  }
+  .wrapper{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap: wrap;
+  }
+  .good_buy_name_text{
+    font-size:19px;
+    margin-bottom:15px;
+    font-weight:700;
+  }
+  .good_buy_name{
+    padding:30px
+  }
+
+  .good_buy_name_description{
+    font-size:16px;
+    color:rgb(177, 177, 177);
+  }
+  .plus_minus{
+    display:flex;
+    align-items: center;
+  }
+ 
+  .number{
+    font-size:18px;
+    font-weight:700;
+    margin-left:20px;
+    margin-right:20px;
+  }
+  .price{
+    font-size:20px;
+    font-weight:700;
+    margin-left:30px;
+  }
+  .btn{
+    text-decoration: none;
+    font-size:18px;
+    background:black;
+    color:white;
+    padding: 15px 20px 15px 20px;
+    border-radius:45px;
+    transition:all 1s ease;  
+    width:185px;  
+    text-align: center;
+    margin-left: 3px;
+    margin-bottom: 10px;
+
+    &:hover{
+        background:white;
+        color: rgb(190, 190, 190);
+        border:2px solid rgb(190, 190, 190);
+    }
+}

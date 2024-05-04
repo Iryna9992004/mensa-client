@@ -1,0 +1,26 @@
+.basket_r{
+    margin:0px;
+}
+  .good_buy_name_text{
+    font-size:19px;
+    font-weight:700;
+    @media(max-width:540px){
+      font-size:14px;
+    }
+  }
+  .good_buy_name{
+    width: 100%;
+    padding:30px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    @media(max-width:540px){
+      padding:10px;
+    }
+  }
+
+  .good_buy_name_description{
+    font-size:16px;
+    color:rgb(177, 177, 177);
+  }
+

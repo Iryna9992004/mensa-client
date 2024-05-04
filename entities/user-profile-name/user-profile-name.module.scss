@@ -1,0 +1,108 @@
+.body{
+    display:flex;
+    justify-content: center;
+}
+
+.profile_wrapper{
+    background: white;
+    display:flex;
+    flex-direction: column;
+    width:92%;
+    margin-top: 9%;
+}
+.name_user{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+.user_information{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:15px;
+}
+.btn_exit, .btn_bl{
+    text-decoration: none;
+    font-size:18px;
+    background:black;
+    font-weight: 700;
+    color:white;
+    padding: 15px 20px 15px 20px;
+    border-radius:45px;
+    transition:all 1s ease;  
+    width:185px;  
+    text-align: center;
+    margin-right: 6px;
+    cursor: pointer;
+
+    &:hover{
+        background:white;
+        color:gray;
+        border:2px solid gray;
+    }
+}
+
+.table{
+    display: none;
+}
+
+@media(max-width:700px){
+    .table{
+        display: block;
+        font-size:13px;
+        background:black;
+        font-weight: 600;
+        color:white;
+        padding: 15px 20px 15px 20px;
+        margin: 2px;
+        cursor: pointer;
+    }
+    .btn_bl{
+        display: none;
+    }
+}
+.btn__selected{
+    background:white;
+    color:gray;
+    border:2px solid gray;
+}
+
+.exit_icon{
+    cursor: pointer;
+    display: none;
+}
+@media(max-width:700px){
+    .liked_basket{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .name_user{
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn_exit{
+        display: none;
+    }
+
+    .exit_icon{
+        color:rgb(165, 165, 165);
+        font-size:28px;
+        display: block;
+    }
+
+    .user_information{
+        margin-top: 50px;
+        margin-bottom:15px;
+    }
+}
+
+.list_items{
+    width:100%;
+    margin-top: 50px;
+}
+

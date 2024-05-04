@@ -1,0 +1,120 @@
+.img{
+    height:203px;
+    width:229px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px lightgrey;
+    &:hover{
+        opacity: 70%;
+        transition:all 0.5s on ease;
+    }
+}
+
+@media(max-width:500px){
+    .img{
+        width:303px;
+        height: 290px;
+    }
+}
+.bx_heart{
+    font-size:22px;
+    color:rgb(189, 189, 189);
+    cursor:pointer;
+}
+
+.liked{
+    color:rgb(103, 103, 103);
+}
+
+.card{
+  margin:0px;
+  margin-bottom: 10px;
+  width:fit-content;
+text-align: center;
+}
+
+.name{
+    font-size:20px;
+    margin-left:15px;
+    font-weight:700;
+}
+
+.like_name{
+    display:flex;
+}
+.price_add{
+    display:flex;
+    margin-top:15px;
+    align-items: center;
+    justify-content: space-between;
+}
+.price{
+    font-size:24px;
+    font-weight: 700;
+}
+.add{
+      background-color: #d8177b;
+      border-radius: 4px;
+      border: 0;
+      box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: 4px;
+      padding: 13px 10px 13px 10px;
+      width:140px;
+      position: relative;
+      text-align: center;
+      transition: all .2s cubic-bezier(.22, .61, .36, 1);
+    &:hover {
+      background-color: #6c1332;
+      transform: translateY(-2px);
+    }
+
+    @media(max-width:500px){
+        &{
+           padding: 25px 10px 25px 10px;
+           line-height: 0px;
+        }
+    }
+
+}
+
+.price_add .count{
+    font-size:15px;
+    height:25px;
+    width:25px;
+    color:#FFF;
+    background:#e975a8;
+    border-radius: 90px;
+    margin-left:15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:400px){
+  .price{
+    font-size:21px;
+    font-weight: 700;
+  }
+  .add {
+    & .add_text{
+        font-size:12px;
+        font-weight:700;
+        text-decoration: none;
+        color:black;
+    }
+
+    & .count{
+        font-size:12px;
+        width:18px;
+        height:18px;
+    }
+  }
+  .menu_icon{
+    display: block;
+  }
+}

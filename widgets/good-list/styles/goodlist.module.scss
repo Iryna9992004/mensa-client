@@ -1,0 +1,40 @@
+.good_cards{
+    background:white;
+    margin:auto;
+    width:67vw;
+    transform:translate(0,15vh);
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left:16.5vw;
+    margin-right:16.5vw;
+    height: fit-content;
+    margin-bottom: 15%;
+    
+}
+@media(min-height:1000px){
+  .good_cards{
+    margin-bottom: 25%;
+    transform:translate(0,8vh);
+  }
+}
+@media(max-width:550px){
+    .good_cards{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0;
+      margin-bottom: 25%;
+      transform:translate(0,10vh);
+    }
+}
+  @media(max-width:400px){
+    .good_cards{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      transform:translate(0,17vh);
+    }
+}

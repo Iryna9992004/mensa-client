@@ -1,0 +1,106 @@
+.form_wrapper{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    background:white;
+    border-radius:5px;
+    box-shadow:0 4 4 0;
+    width:470px;
+    height:fit-content;
+    padding:35px;
+}
+.create_account_text{
+    font-size:25px;
+    font-weight:700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.create_or_signup{
+    display:flex;
+    justify-content: center;
+    margin-bottom:10px;
+}
+.choose_autho{
+    color:gray;
+    margin-right:5px;
+    margin-left:5px;
+}
+
+.btn_social_media{
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    border:2px solid rgb(190, 190, 190);
+    border-radius:6px;
+    color:rgb(134, 134, 134);
+    transition:all 2s on ease;
+    &:hover{
+        background:rgb(238, 238, 238);
+    }
+}
+
+.span{
+    color:gray;
+}
+.create_account_buttons{
+    display:flex;
+    justify-content:space-between;
+    margin-top:25px;
+    margin-bottom:15px;
+}
+.create_account_btn{
+    text-decoration: none;
+    font-size:18px;
+    background:black;
+    color:white;
+    padding: 15px 20px 15px 20px;
+    border-radius:45px;
+    transition:all 1s ease;  
+    width:185px;  
+    text-align: center;
+
+    &:hover{
+        background:white;
+        color: rgb(190, 190, 190);
+        border:2px solid rgb(190, 190, 190);
+    }
+}
+.btn_register_signup{
+    margin-top:6%;
+    display:flex;
+    justify-content: space-between;
+}
+
+@media(max-width:500px){
+    .form_wrapper{
+        width:76%;
+    }
+    .create_account_buttons{
+        flex-direction:column;
+    }
+    .create_account_btn{
+        margin-left: 3px;
+    }
+   
+    .btn_social_media{
+        margin-bottom: 4px;
+    }
+}
+@media (max-width:920px){
+    .input_form{
+        border:none;
+        border-bottom:1px solid rgb(187, 187, 187);
+    }
+}
+@media(max-height:700px){
+    .form_wrapper{
+        justify-self: center;
+        margin-top:4%;
+    }
+    .btn_register_signup{
+        margin-top:12px;
+    }
+}
+
+.underline{
+    text-decoration: underline;
+}
